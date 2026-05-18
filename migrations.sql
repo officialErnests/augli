@@ -1,10 +1,8 @@
-CREATE DATABASE RollOff;
-USE RollOff;
+CREATE DATABASE fruits;
+USE fruits;
 
-DROP TABLE IF EXISTS login;
-CREATE TABLE login (
+DROP TABLE IF EXISTS fruits;
+CREATE TABLE fruits (
 	id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
-	`username` VARCHAR(25) NOT NULL UNIQUE,
-	`role`   ENUM('admin', 'teacher', 'user') NOT NULL DEFAULT 'user',
-	`password` VARCHAR(64) NOT NULL
+	`name` VARCHAR(40) NOT NULL UNIQUE
 );

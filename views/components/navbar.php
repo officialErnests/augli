@@ -1,5 +1,7 @@
 <header class="navbar">
     <nav>
-        <p>link</p>
+        <a href="/">mājās</a>
+        <a href="/create">izveidot</a>
+        <hr>
     </nav>
 </header>
