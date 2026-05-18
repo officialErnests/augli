@@ -3,6 +3,7 @@
 $pageTitle = "RollOff";
 $customStyles = [];
 $customScripts = [];
+
 require "validator.php";
 if (!Validator::number($_GET["id"], min:1)) {
     redirectIfNotFound();
